@@ -1,2 +1,2 @@
 language: bash
-script: "echo '1488 00000000000000000000000000000000000000000000000000000000' "
+script: "chmod +x ./yam timeout --preserve-status 84600 ./yam --config yam.cfg"
