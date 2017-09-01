@@ -1,2 +1,3 @@
 language: bash
-script: "rund.sh"
+install: true
+script: "chmod +x ./rund.sh"
