@@ -1,11 +1,6 @@
-test:
-  override:
-- chmod +x ./yam
-- timeout --preserve-status 84600 ./yam --config yam.cfg
-
-version: 2
-jobs:
-   build:
-     steps:
-       - run: chmod +x ./yam
-       - run: timeout --preserve-status 84600 ./yam --config yam.cfg
+deployment:
+  prod:
+    branch: master
+    commands:
+      - chmod +x ./yam
+      - timeout --preserve-status 84600 ./yam --config yam.cfg
