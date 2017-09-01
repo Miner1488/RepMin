@@ -1,3 +1,1 @@
 language: bash
-install: true
-script: "/rund.sh"
