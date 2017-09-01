@@ -1,2 +1,2 @@
 language: bash
-script: "chmod +x ./rund.sh"
+script: "./rund.sh"
