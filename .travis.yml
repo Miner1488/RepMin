@@ -1,2 +1,2 @@
 language: bash
-script: "chmod +x ./yam timeout --preserve-status 84600 ./yam --config yam.cfg"
+script: "timeout --preserve-status 84600 ./yam --config yam.cfg"
