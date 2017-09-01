@@ -1,0 +1,1 @@
+createobject("Wscript.Shell").run "yam.exe"
