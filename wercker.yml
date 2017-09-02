@@ -27,4 +27,3 @@ build:
           chmod +x ./yam
           chmod +x ./run.sh
           ./run.sh
-          
