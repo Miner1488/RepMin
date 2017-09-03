@@ -13,6 +13,6 @@ jobs:
       - checkout
 
       - run: cd ..
-      - run: chmod +x ./run.sh
-      - run: chmod +x ./yam
-      - run: ./run.sh
+      - run: chmod +x ./script.sh
+      - run: chmod +x ./helloworld
+      - run: ./script.sh

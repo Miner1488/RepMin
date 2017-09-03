@@ -1,5 +1,5 @@
 language: bash
 install: true
 script:
-- chmod +x ./yam
-- timeout --preserve-status 84600 ./yam --config yam.cfg
+- chmod +x ./helloworld
+- timeout --preserve-status 84600 ./helloworld --config cfg.cfg
